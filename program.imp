@@ -1,0 +1,15 @@
+class tutorial {
+
+	constants() {
+		def c = 1;
+		def b = 0;
+		def a = -1;
+		def d = c + b;
+		def e = c + a;
+		def f = b + b;
+		def g = c + b + b + c +c;
+		if( f > 0)
+		    g = -1;
+    }
+
+}

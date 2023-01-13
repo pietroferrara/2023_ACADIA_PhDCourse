@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+sourceSets {
+    main {
+        java {
+            srcDirs 'src'
+        }
+    }
+}
+
+dependencies {
+    implementation 'io.github.lisa-analyzer:lisa-sdk:0.1b7'
+    implementation 'io.github.lisa-analyzer:lisa-imp:0.1b7'
+    implementation 'io.github.lisa-analyzer:lisa-core:0.1b7'
+    implementation 'junit:junit:4.13.2'
+}
